@@ -1,0 +1,65 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+.windows{
+  background-color: rgba(0,0,0,0.5);
+  width: 1200px;
+  height: 900px;
+  margin:auto;
+}
+
+.container{
+  width: 1000px;
+  margin: auto;
+  color: white;
+}
+
+.intestazione{
+  text-align: center;
+}
+
+header img{ /* tutti i discendenti di header di tipo img*/
+  width: 200px;
+  margin-top: 150px;
+}
+
+h3{
+  color: #00dd00;
+}
+
+nav div{ /* tutti i discendenti di nav di tipo div*/
+  background-color: #00dd00;
+  padding: 10px;
+}
+
+.proprietario{
+  margin-top: 20px;
+}
+
+.indirizzo_e_carica{
+  font-size: 12px;
+}
+
+#carica_Gino22{
+  background-color: #f9b63c;
+  width: 300px;
+  height: 30px;
+}
+
+#carica_Mike24{
+  background-color: #03ae03;;
+  width: 425px;
+  height: 30px;
+}
+
+#carica_Fede154{
+  background-color: #ae2d2d;;
+  width: 125px;
+  height: 30px;
+}
+
+#carica_Gino22, #carica_Mike24, #carica_Fede154{ /*selettore multiplo*/
+  border-radius: 5px;
+}
